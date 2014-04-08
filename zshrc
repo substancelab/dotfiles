@@ -11,7 +11,7 @@ fi
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # plugins=( bundler capistrano colorize git git-completion git-extras git-hubflow macports osx powder rails rake-fast rvm sublime zsh_reload)
-plugins=(git-prompt rvm zsh_reload)
+plugins=(gitfast git-prompt rvm zsh_reload)
 
 # User configuration
 
