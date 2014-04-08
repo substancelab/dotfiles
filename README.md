@@ -14,5 +14,11 @@ Dependencies
 
     $ curl -L http://install.ohmyz.sh | sh
 
+### Recommended
+
+[autojump](https://github.com/joelthelion/autojump)
+
+    $ port install autojump
+
 Also, [rcm](https://github.com/thoughtbot/rcm) is great for actually linking
 these dotfiles to your home directory.
