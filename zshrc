@@ -1,12 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="avit"
-
 # Setup autojump
 export FPATH="$FPATH:/opt/local/share/zsh/site-functions/"
 if [ -f /opt/local/etc/profile.d/autojump.zsh ]; then
@@ -84,12 +78,16 @@ fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# Load aliases
-[[ -f ~/.aliases ]] && source ~/.aliases
-
 # RVM
 if [[ -s ~/.rvm/scripts/rvm ]] ; then
   source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
   rvm use 2.0
 fi
 
+# Load aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
+
+# Local config
+[[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+source $ZSH/oh-my-zsh.sh
