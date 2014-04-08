@@ -56,7 +56,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"
-PATH=$PATH:./bin:/Users/jakob/bin # Personal scripts etc
+PATH=$PATH:./bin:~/bin # Personal scripts etc
 PATH=$PATH:/opt/local/lib/postgresql91/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin # MacPorts
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
