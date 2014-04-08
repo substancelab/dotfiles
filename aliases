@@ -1,0 +1,29 @@
+
+# Bundler
+alias b='bundle'
+alias be='bundle exec'
+
+# Git
+alias edit_unmerged="git st | grep \"unmerged\|both modified\|both added\|added by them\" | awk -F : '{print \$2}' | while read line; do $EDITOR \$line; done"
+alias gap='git add -p'
+alias git='hub' # https://github.com/defunkt/hub#readme
+alias gra='git rebase --abort'
+alias grc='git rebase --continue'
+alias grs='git rebase --skip'
+alias gst='git status'
+
+# Pow
+alias powr="powder link; powder restart"
+
+# Rails
+alias migrate='rake db:migrate && rake db:schema:dump && rake db:test:prepare'
+alias rs='rails server'
+alias rc='rails console'
+alias rg='rails generate'
+
+# Unix
+alias ls='ls -G' # Colorful ls
+alias mkdir='mkdir -p'
+
+# Include custom aliases
+[[ -f ~/.aliases.local ]] && source ~/.aliases.local

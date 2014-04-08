@@ -84,6 +84,9 @@ fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+# Load aliases
+[[ -f ~/.aliases ]] && source ~/.aliases
+
 # RVM
 if [[ -s ~/.rvm/scripts/rvm ]] ; then
   source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
