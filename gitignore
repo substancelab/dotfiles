@@ -1,0 +1,9 @@
+.DS_Store
+.powenv
+.routes
+.ruby-gemset
+.ruby-version
+.rvmrc
+.sass-cache
+test/watchr-runner.rb
+Thumbs.db
