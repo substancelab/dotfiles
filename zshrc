@@ -1,17 +1,11 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
-# Setup autojump
-export FPATH="$FPATH:/opt/local/share/zsh/site-functions/"
-if [ -f /opt/local/etc/profile.d/autojump.zsh ]; then
-    . /opt/local/etc/profile.d/autojump.zsh
-fi
-
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # plugins=( bundler capistrano colorize git git-completion git-extras git-hubflow macports osx powder rails rake-fast rvm sublime zsh_reload)
-plugins=(gitfast git-prompt rvm sublime zsh_reload)
+plugins=(autojump gitfast git-prompt rvm sublime zsh_reload)
 
 # User configuration
 
