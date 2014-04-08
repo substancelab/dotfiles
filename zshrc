@@ -26,11 +26,8 @@ else
   export EDITOR='subl -w'
 fi
 
-# RVM
-if [[ -s ~/.rvm/scripts/rvm ]] ; then
-  source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-  rvm use 2.0
-fi
+# Load RVM into a shell session *as a function*
+[[ -s ~/.rvm/scripts/rvm ]] && source ~/.rvm/scripts/rvm
 
 # Load aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
