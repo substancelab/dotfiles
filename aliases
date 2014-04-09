@@ -9,7 +9,6 @@ alias gap='git add -p'
 alias gra='git rebase --abort'
 alias grc='git rebase --continue'
 alias grs='git rebase --skip'
-alias gst='git status'
 
 # Pow
 alias powr="powder link; powder restart"
