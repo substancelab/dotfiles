@@ -20,5 +20,9 @@ Dependencies
 
     $ port install autojump
 
+git and friends
+
+    $ port install git-core git-extras
+
 Also, [rcm](https://github.com/thoughtbot/rcm) is great for actually linking
 these dotfiles to your home directory.
