@@ -15,9 +15,9 @@ alias powr="powder link; powder restart"
 
 # Rails
 alias migrate='rake db:migrate && rake db:schema:dump && rake db:test:prepare'
-alias rs='[[ -f script/rails ]] && rails server || script/server'
-alias rc='[[ -f script/rails ]] && rails console || script/console'
-alias rg='[[ -f script/rails ]] && rails generate || script/generate'
+alias rs='[[ -f script/server ]] && script/server || rails server'
+alias rc='[[ -f script/console ]] && script/console || rails console'
+alias rg='[[ -f script/generate ]] && script/generate || rails generate'
 
 # Unix
 alias ls='ls -G' # Colorful ls
