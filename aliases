@@ -21,6 +21,7 @@ alias powr="powder link; powder restart"
 alias migrate='rake db:migrate && rake db:schema:dump && rake db:test:prepare'
 alias rs='[[ -f script/server ]] && script/server || rails server'
 alias rc='[[ -f script/console ]] && script/console || rails console'
+alias rdb='[[ -f script/dbconsole ]] && script/dbconsole || rails dbconsole -p'
 alias rg='[[ -f script/generate ]] && script/generate || rails generate'
 
 # Unix
