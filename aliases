@@ -6,6 +6,7 @@ alias be='bundle exec'
 # Git
 alias edit_unmerged="git st | grep \"unmerged\|both modified\|both added\|added by them\" | awk -F : '{print \$2}' | while read line; do $EDITOR \$line; done"
 alias gap='git add -p'
+alias gp!='git add -f'
 alias gr='git rebase'
 alias gra='git rebase --abort'
 alias grc='git rebase --continue'
