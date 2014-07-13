@@ -28,6 +28,8 @@ alias rg='[[ -f script/generate ]] && script/generate || rails generate'
 # Unix
 alias ls='ls -G' # Colorful ls
 alias mkdir='mkdir -p'
+alias follow='less +F'
+alias flw='follow'
 
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
