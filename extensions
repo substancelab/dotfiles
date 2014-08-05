@@ -1,9 +1,11 @@
 
 # Bundler
+
 alias b='bundle'
 alias be='bundle exec'
 
 # Git
+
 alias edit_unmerged="git st | grep \"unmerged\|both modified\|both added\|added by them\" | awk -F : '{print \$2}' | while read line; do $EDITOR \$line; done"
 alias gap='git add -p'
 alias gcb='git checkout -b'
@@ -17,9 +19,11 @@ alias grim='git rebase -i master'
 alias grs='git rebase --skip'
 
 # Pow
+
 alias powr="powder link; powder restart"
 
 # Rails
+
 alias migrate='rake db:migrate && rake db:schema:dump && rake db:test:prepare'
 alias rs='[[ -f script/server ]] && script/server || rails server'
 alias rc='[[ -f script/console ]] && script/console || rails console'
@@ -27,6 +31,7 @@ alias rdb='[[ -f script/dbconsole ]] && script/dbconsole || rails dbconsole -p'
 alias rg='[[ -f script/generate ]] && script/generate || rails generate'
 
 # Unix
+
 alias ls='ls -G' # Colorful ls
 alias mkdir='mkdir -p'
 alias follow='less +F'

@@ -33,6 +33,9 @@ fi
 # Load aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
 
+# Load extensions
+[[ -f ~/.extensions ]] && source ~/.extensions
+
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 
