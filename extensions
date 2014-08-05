@@ -45,9 +45,7 @@ rdb () {
   [[ -f script/dbconsole ]] && script/dbconsole || rails dbconsole -p
 }
 # Run a Rails generator
-rg () {
-  [[ -f script/generate ]] && script/generate || rails generate
-}
+alias rg="[[ -f script/generate ]] && script/generate || rails generate"
 
 # Unix
 
