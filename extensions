@@ -20,6 +20,7 @@ alias grs='git rebase --skip'
 
 # Pow
 
+# Ensure Pow is linked and running in the current directory
 powr () {
   powder link
   powder restart
@@ -27,18 +28,23 @@ powr () {
 
 # Rails
 
+# Make sure Rails databases are up to date
 migrate () {
   rake db:migrate && rake db:schema:dump && rake db:test:prepare
 }
+# Start a Rails application process
 rs () {
   [[ -f script/server ]] && script/server || rails server
 }
+# Start a Rails console
 rc () {
   [[ -f script/console ]] && script/console || rails console
 }
+# Start a Rails database console
 rdb () {
   [[ -f script/dbconsole ]] && script/dbconsole || rails dbconsole -p
 }
+# Run a Rails generator
 rg () {
   [[ -f script/generate ]] && script/generate || rails generate
 }
