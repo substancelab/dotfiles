@@ -60,6 +60,3 @@ mkcd () {
 }
 alias follow='less +F'
 alias flw='follow'
-
-# Include custom aliases
-[[ -f ~/.aliases.local ]] && source ~/.aliases.local
