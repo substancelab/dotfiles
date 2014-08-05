@@ -20,15 +20,28 @@ alias grs='git rebase --skip'
 
 # Pow
 
-alias powr="powder link; powder restart"
+powr () {
+  powder link
+  powder restart
+}
 
 # Rails
 
-alias migrate='rake db:migrate && rake db:schema:dump && rake db:test:prepare'
-alias rs='[[ -f script/server ]] && script/server || rails server'
-alias rc='[[ -f script/console ]] && script/console || rails console'
-alias rdb='[[ -f script/dbconsole ]] && script/dbconsole || rails dbconsole -p'
-alias rg='[[ -f script/generate ]] && script/generate || rails generate'
+migrate () {
+  rake db:migrate && rake db:schema:dump && rake db:test:prepare
+}
+rs () {
+  [[ -f script/server ]] && script/server || rails server
+}
+rc () {
+  [[ -f script/console ]] && script/console || rails console
+}
+rdb () {
+  [[ -f script/dbconsole ]] && script/dbconsole || rails dbconsole -p
+}
+rg () {
+  [[ -f script/generate ]] && script/generate || rails generate
+}
 
 # Unix
 
