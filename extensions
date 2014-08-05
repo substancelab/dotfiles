@@ -34,6 +34,11 @@ alias rg='[[ -f script/generate ]] && script/generate || rails generate'
 
 alias ls='ls -G' # Colorful ls
 alias mkdir='mkdir -p'
+# mkdir, cd into it
+mkcd () {
+  mkdir -p "$*"
+  cd "$*"
+}
 alias follow='less +F'
 alias flw='follow'
 
