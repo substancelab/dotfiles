@@ -1,5 +1,2 @@
-# Include the new extensions file
-[[ -f extensions ]] && source extensions
-
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
