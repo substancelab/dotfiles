@@ -27,6 +27,13 @@ else
   export EDITOR='subl -w'
 fi
 
+# Optimize Ruby GC for longer running processes
+export RUBY_HEAP_MIN_SLOTS=2000000
+export RUBY_HEAP_SLOTS_INCREMENT=500000
+export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
+export RUBY_GC_MALLOC_LIMIT=70000000
+export RUBY_FREE_MIN=100000
+
 # Load RVM into a shell session *as a function*
 [[ -s ~/.rvm/scripts/rvm ]] && source ~/.rvm/scripts/rvm
 
