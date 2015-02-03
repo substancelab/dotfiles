@@ -11,7 +11,7 @@ plugins=(autojump gitfast git-prompt rvm sublime zsh_reload)
 
 PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
 PATH=./bin:~/bin:$PATH # Personal scripts etc
-PATH=/opt/local/lib/postgresql91/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH # MacPorts
+PATH=/opt/local/lib/postgresql93/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH # MacPorts
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # export MANPATH="/usr/local/man:$MANPATH"
