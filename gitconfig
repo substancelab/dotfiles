@@ -1,5 +1,6 @@
 [alias]
   ap = add -p
+  b = branch
   bd = delete-branch
   bm = branch --merged
   co = checkout
