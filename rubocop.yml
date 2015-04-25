@@ -1,7 +1,7 @@
 Lint/EndAlignment:
   AlignWith: variable
 
-Style/Blocks:
+Style/BlockDelimiters:
   Enabled: false
 
 Style/Documentation:
