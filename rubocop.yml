@@ -1,6 +1,9 @@
 Lint/EndAlignment:
   AlignWith: variable
 
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
 Style/BlockDelimiters:
   Enabled: false
 
