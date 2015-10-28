@@ -13,6 +13,9 @@ Style/Documentation:
 Style/DotPosition:
   EnforcedStyle: trailing
 
+Style/FileName:
+  Enabled: false
+
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
 
