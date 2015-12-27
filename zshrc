@@ -5,7 +5,14 @@ export ZSH=$HOME/.oh-my-zsh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # plugins=( bundler capistrano colorize git git-completion git-extras git-hubflow macports osx powder rails rake-fast rvm sublime zsh_reload)
-plugins=(aws autojump gitfast git-prompt rvm sublime zsh_reload)
+plugins=(aws gitfast git-prompt rvm sublime zsh_reload)
+
+# Load autojump with tab completions
+export FPATH="$FPATH:/opt/local/share/zsh/site-functions/"
+if [ -f /opt/local/etc/profile.d/autojump.sh ]; then
+    . /opt/local/etc/profile.d/autojump.sh
+fi
+autoload -U compinit; compinit
 
 # User configuration
 
