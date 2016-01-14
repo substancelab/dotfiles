@@ -27,6 +27,9 @@ Style/HashSyntax:
 Style/IfUnlessModifier:
   Enabled: false
 
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
 Style/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
