@@ -6,6 +6,14 @@ AllCops:
 Lint/EndAlignment:
   AlignWith: variable
 
+Metrics/AbcSize:
+  Exclude:
+    - 'db/migrate/*'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/*'
+
 Style/AlignParameters:
   EnforcedStyle: with_fixed_indentation
 
