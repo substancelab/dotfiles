@@ -18,6 +18,7 @@ Metrics/BlockLength:
 Metrics/MethodLength:
   Exclude:
     - 'db/migrate/*'
+    - 'lib/**/*.rake'
 
 Style/AlignParameters:
   EnforcedStyle: with_fixed_indentation
