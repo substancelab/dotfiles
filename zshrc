@@ -19,7 +19,7 @@ autoload -U compinit; compinit
 PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
 PATH=./bin:~/bin:$PATH # Personal scripts etc
 PATH=/opt/local/bin:$PATH # npm
-PATH=/opt/local/lib/postgresql94/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH # MacPorts
+PATH=/opt/local/lib/postgresql96/bin:/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH # MacPorts
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # export MANPATH="/usr/local/man:$MANPATH"
