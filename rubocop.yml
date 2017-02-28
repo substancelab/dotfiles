@@ -6,7 +6,7 @@ AllCops:
     - 'node_modules/**/*.rb'
 
 Lint/EndAlignment:
-  AlignWith: variable
+  EnforcedStyleAlignWith: variable
 
 Metrics/AbcSize:
   Exclude:
