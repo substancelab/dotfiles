@@ -17,6 +17,7 @@ Metrics/BlockLength:
     - 'config/**/*.rb'
     - 'lib/**/*.rake'
     - 'Rakefile'
+    - 'spec/**/*'
 
 Metrics/MethodLength:
   Exclude:
