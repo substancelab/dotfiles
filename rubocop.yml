@@ -19,6 +19,14 @@ Metrics/BlockLength:
     - 'Rakefile'
     - 'spec/**/*'
 
+Metrics/ClassLength:
+  Exclude:
+    - 'app/dashboards/*'
+
+Metrics/LineLength:
+  Exclude:
+    - 'app/dashboards/*'
+
 Metrics/MethodLength:
   Exclude:
     - 'db/migrate/*'
