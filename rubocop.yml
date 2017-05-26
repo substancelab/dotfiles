@@ -5,6 +5,10 @@ AllCops:
     - 'db/schema.rb'
     - 'node_modules/**/*.rb'
 
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "spec/**/*"
+
 Lint/EndAlignment:
   EnforcedStyleAlignWith: variable
 
