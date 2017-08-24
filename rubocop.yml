@@ -3,7 +3,8 @@ AllCops:
   Exclude:
     - 'bin/*'
     - 'db/schema.rb'
-    - 'node_modules/**/*.rb'
+    - 'lib/templates/**/*.rb'
+    - 'node_modules/**/*'
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
@@ -20,6 +21,7 @@ Metrics/BlockLength:
   Exclude:
     - 'config/**/*.rb'
     - 'lib/**/*.rake'
+    - 'Guardfile'
     - 'Rakefile'
     - 'spec/**/*'
 
