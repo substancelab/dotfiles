@@ -5,6 +5,7 @@ AllCops:
     - 'db/schema.rb'
     - 'lib/templates/**/*.rb'
     - 'node_modules/**/*'
+  TargetRubyVersion: 2.4
 
 Layout/AlignParameters:
   EnforcedStyle: with_fixed_indentation
