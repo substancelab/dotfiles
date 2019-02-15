@@ -11,6 +11,7 @@ AllCops:
     - 'db/schema.rb'
     - 'lib/templates/**/*.rb'
     - 'node_modules/**/*'
+    - 'vendor/**/*'
   TargetRubyVersion: 2.6
 
 Layout/AlignParameters:
@@ -56,7 +57,8 @@ Metrics/ClassLength:
 
 Metrics/LineLength:
   Exclude:
-    - 'app/dashboards/*'
+    - "app/dashboards/*"
+    - "config/initializers/*"
     - 'db/migrate/*'
 
 Metrics/MethodLength:
