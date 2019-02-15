@@ -57,6 +57,7 @@ Metrics/ClassLength:
 Metrics/LineLength:
   Exclude:
     - 'app/dashboards/*'
+    - 'db/migrate/*'
 
 Metrics/MethodLength:
   Exclude:
