@@ -37,7 +37,7 @@ Layout/SpaceInsideHashLiteralBraces:
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
-    - "spec/**/*"
+    - 'spec/**/*'
 
 Metrics/AbcSize:
   Exclude:
@@ -57,8 +57,8 @@ Metrics/ClassLength:
 
 Metrics/LineLength:
   Exclude:
-    - "app/dashboards/*"
-    - "config/initializers/*"
+    - 'app/dashboards/*'
+    - 'config/initializers/*'
     - 'db/migrate/*'
 
 Metrics/MethodLength:
