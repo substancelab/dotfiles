@@ -23,6 +23,9 @@ Layout/DotPosition:
 Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
+Layout/IndentArray:
+  EnforcedStyle: consistent
+
 Layout/IndentHash:
   EnforcedStyle: consistent
 
