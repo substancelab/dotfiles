@@ -76,9 +76,6 @@ Naming/FileName:
 Naming/RescuedExceptionsVariableName:
   PreferredName: error
 
-Rails/DynamicFindBy:
-  Enabled: false
-
 Style/BlockDelimiters:
   Enabled: false
 
