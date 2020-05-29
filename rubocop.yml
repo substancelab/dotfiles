@@ -16,6 +16,9 @@ AllCops:
 Layout/DotPosition:
   EnforcedStyle: trailing
 
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
 Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
@@ -40,12 +43,24 @@ Layout/MultilineOperationIndentation:
 Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
 
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
 Lint/AmbiguousBlockAssociation:
   Exclude:
     - 'spec/**/*'
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
 
 Metrics/AbcSize:
   Exclude:
@@ -79,23 +94,29 @@ Style/BlockDelimiters:
 Style/Documentation:
   Enabled: false
 
+Style/ExponentialNotation:
+  Enabled: true
+
 Style/HashEachMethods:
-  Enabled: false
+  Enabled: true
 
 Style/HashSyntax:
   EnforcedStyle: hash_rockets
 
 Style/HashTransformKeys:
-  Enabled: false
+  Enabled: true
 
 Style/HashTransformValues:
-  Enabled: false
+  Enabled: true
 
 Style/IfUnlessModifier:
   Enabled: false
 
 Style/SafeNavigation:
   Enabled: false
+
+Style/SlicingWithRange:
+  Enabled: true
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
