@@ -9,13 +9,13 @@ alias be='bundle exec'
 alias edit_unmerged="git st | grep \"unmerged\|both modified\|both added\|added by them\" | awk -F : '{print \$2}' | while read line; do $EDITOR \$line; done"
 alias gap='git add -p'
 alias gcb='git checkout -b'
-alias glu='git pull upstream master && git push origin'
+alias glu='git pull upstream $(git_main_branch) && git push origin'
 alias gp!='git push --force-with-lease'
 alias gr='git rebase'
 alias gra='git rebase --abort'
 alias grc='git rebase --continue'
 alias gri='git rebase -i'
-alias grim='git rebase -i master'
+alias grim='git rebase -i $(git_main_branch)'
 alias grs='git rebase --skip'
 
 # Pow
