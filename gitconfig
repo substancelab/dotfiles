@@ -52,6 +52,9 @@
 [mirror]
   summary = true
 
+[pull]
+  ff = only
+
 [push]
   default = simple
 
