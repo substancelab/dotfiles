@@ -7,6 +7,7 @@ AllCops:
     - 'config/initializers/simple_form_bootstrap.rb'
     - 'config/initializers/wrap_parameters.rb'
     - 'config/puma.rb'
+    - 'db/migrate/*.active_storage.rb'
     - 'db/schema.rb'
     - 'lib/templates/**/*.rb'
     - 'node_modules/**/*'
