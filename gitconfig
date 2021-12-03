@@ -64,3 +64,5 @@
 # Include usernames, credentials, tokens, etc.
 [include]
   path = ~/.gitconfig.local
+[init]
+	defaultBranch = main
