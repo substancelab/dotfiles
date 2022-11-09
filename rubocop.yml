@@ -72,6 +72,10 @@ Metrics/MethodLength:
   Exclude:
     - 'db/migrate/*'
 
+Metrics/ModuleLength:
+  Exclude:
+    - 'spec/**/*'
+
 Naming/FileName:
   Enabled: false
 
