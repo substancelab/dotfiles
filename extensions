@@ -18,14 +18,6 @@ alias gri='git rebase -i'
 alias grim='git rebase -i $(git_main_branch)'
 alias grs='git rebase --skip'
 
-# Pow
-
-# Ensure Pow is linked and running in the current directory
-powr () {
-  powder link
-  powder restart
-}
-
 # Rails
 
 # Make sure Rails databases are up to date
