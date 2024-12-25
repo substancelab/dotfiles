@@ -17,7 +17,7 @@ autoload -U compinit; compinit
 # User configuration
 
 PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
-PATH=./bin:~/bin:$PATH # Personal scripts etc
+PATH=./bin:~/bin:~/.local/bin:$PATH # Personal scripts etc
 PATH=/opt/local/bin:$PATH # npm
 PATH=/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH # MacPorts
 PATH=~/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH
