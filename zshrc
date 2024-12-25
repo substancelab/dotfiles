@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # plugins=( bundler capistrano colorize git git-completion git-extras git-hubflow macports osx powder rails rake-fast rvm sublime zsh_reload)
-plugins=(aws git gitfast git-prompt rvm)
+plugins=(aws git gitfast git-prompt)
 
 # Load autojump with tab completions
 export FPATH="$FPATH:/opt/local/share/zsh/site-functions/"
@@ -21,7 +21,6 @@ PATH=./bin:~/bin:~/.local/bin:$PATH # Personal scripts etc
 PATH=/opt/local/bin:$PATH # npm
 PATH=/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH # MacPorts
 PATH=~/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -42,9 +41,6 @@ export RUBY_HEAP_SLOTS_INCREMENT=500000
 export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
 export RUBY_GC_MALLOC_LIMIT=70000000
 export RUBY_GC_HEAP_FREE_SLOTS=100000
-
-# Load RVM into a shell session *as a function*
-[[ -s ~/.rvm/scripts/rvm ]] && source ~/.rvm/scripts/rvm
 
 # Load aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
