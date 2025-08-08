@@ -1,2 +1,4 @@
 # Include custom aliases
 [[ -f ~/.aliases.local ]] && source ~/.aliases.local
+
+alias publish="ruby -run -e httpd"
