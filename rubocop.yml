@@ -82,9 +82,6 @@ Naming/FileName:
 Naming/RescuedExceptionsVariableName:
   PreferredName: error
 
-RSpec/NamedSubject:
-  Enabled: false
-
 Style/AsciiComments:
   Enabled: false
 
