@@ -110,7 +110,7 @@ Style/TrailingCommaInArrayLiteral:
   EnforcedStyleForMultiline: comma
 
 Style/TrailingCommaInHashLiteral:
-  EnforcedStyleForMultiline: comma
+  EnforcedStyleForMultiline: diff_comma
 
 Style/WordArray:
   EnforcedStyle: brackets
