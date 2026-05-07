@@ -22,7 +22,7 @@ alias grs='git rebase --skip'
 
 # Make sure Rails databases are up to date
 migrate () {
-  rake db:migrate && rake db:schema:dump && rake db:test:prepare
+  bundle exec rake db:migrate && bundle exec rake db:schema:dump && bundle exec rake db:test:prepare
 }
 # Start a Rails application process
 rs () {
